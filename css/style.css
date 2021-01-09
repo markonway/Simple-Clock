@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.clock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px auto;
+
+    width: 400px;
+}
+
+#date {
+    font-weight: normal;
+    font-family: 'Open Sans';
+    font-size: 25px;
+    color: white;
+}
+
+#time{
+    font-weight: normal;
+    font-family: 'Open Sans';
+    font-size: 40px;
+    color: white;
+}
+
+.clock input{
+    background-color: #060c0b;
+    opacity: 50%;
+    height: 30px;
+    width: 100px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    color: white;
+    text-align: center;
+}
+
+.hashtag {
+    padding: 20px;
+    font-weight: normal;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    color: #060c0b;
+}
+
+h3 {
+    font-weight: normal;
+    font-family: 'Open Sans';
+    font-size: 30px;
+    color: white;
+}
+
+p {
+    font-family: 'Open Sans';
+    color: white;
+}
